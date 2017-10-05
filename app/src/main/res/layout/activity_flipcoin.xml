@@ -7,10 +7,28 @@
     tools:context="com.example.kieran.coinflip.Flipcoin">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/fctext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Flip a coin!"
-        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/Coin"
+        android:layout_width="177dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/c1"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Button
+        android:id="@+id/ButtonFlip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flip"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+
 </android.support.constraint.ConstraintLayout>
